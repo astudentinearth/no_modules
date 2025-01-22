@@ -1,8 +1,9 @@
 {
-  "name": "no_modules",
+  "name": "@buraky/no_modules",
   "version": "1.0.0",
   "description": "No more node_modules",
   "main": "index.js",
+  "bin": "executable.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

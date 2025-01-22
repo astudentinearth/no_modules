@@ -1,6 +1,6 @@
 {
   "name": "@buraky/no_modules",
-  "version": "1.0.1",
+  "version": "1.0.1-1",
   "description": "No more node_modules",
   "main": "index.js",
   "bin": "executable.js",
@@ -9,5 +9,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "astudentinearth",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {"url": "https://github.com/astudentinearth/no_modules"}
 }

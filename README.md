@@ -2,7 +2,10 @@
 Finds all `node_modules` directories in your side projects folder so you don't blow up while backing it up to an external drive.
 
 # Usage
-Run the script, and run `rm -rf` on each outputted line.
+```
+npx @buraky/no_modules
+```
+Run the script, and run `rm -rf` for each outputted line.
 
 # API
 ## `findNodeModules(path: string)`

@@ -1,7 +1,7 @@
 import fs from "fs"
 import {resolve} from "path"
 
-export function scanDir(path){
+export function findNodeModules(path){
     const results = [];
     const read = (dir) => {
         const dirs = fs.readdirSync(dir, {withFileTypes: true}).filter(dirent => dirent.isDirectory());
